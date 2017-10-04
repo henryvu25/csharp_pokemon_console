@@ -1,0 +1,8 @@
+c:\Users\vu\Desktop\codingdojo\CSHARP\pokemon\bin\Debug\netcoreapp1.1\pokemon.deps.json
+c:\Users\vu\Desktop\codingdojo\CSHARP\pokemon\bin\Debug\netcoreapp1.1\pokemon.runtimeconfig.json
+c:\Users\vu\Desktop\codingdojo\CSHARP\pokemon\bin\Debug\netcoreapp1.1\pokemon.runtimeconfig.dev.json
+c:\Users\vu\Desktop\codingdojo\CSHARP\pokemon\bin\Debug\netcoreapp1.1\pokemon.dll
+c:\Users\vu\Desktop\codingdojo\CSHARP\pokemon\bin\Debug\netcoreapp1.1\pokemon.pdb
+c:\Users\vu\Desktop\codingdojo\CSHARP\pokemon\obj\Debug\netcoreapp1.1\pokemon.AssemblyInfo.cs
+c:\Users\vu\Desktop\codingdojo\CSHARP\pokemon\obj\Debug\netcoreapp1.1\pokemon.dll
+c:\Users\vu\Desktop\codingdojo\CSHARP\pokemon\obj\Debug\netcoreapp1.1\pokemon.pdb
