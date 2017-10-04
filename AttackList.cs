@@ -5,9 +5,10 @@ namespace Pokemon
 {
 class AttackList
 {
+    public Dictionary<string,BaseAttack> attacks;
     public AttackList()
     {
-        Dictionary<string,BaseAttack> attacks = new Dictionary<string, BaseAttack>();
+        attacks = new Dictionary<string, BaseAttack>();
         //"Name", "Type", "Category", "Contest", "PP", "Power", "Accuracy", "Gen" 
 
 attacks.Add("Pound", new BaseAttack("Pound", "Normal", "Physical", "Tough", "35", "40", "100", "I"));
@@ -632,41 +633,41 @@ attacks.Add("Precipice Blades", new BaseAttack("Precipice Blades", "Ground", "Ph
 attacks.Add("Dragon Ascent", new BaseAttack("Dragon Ascent", "Flying", "Physical", "Beautiful", "5", "120", "100", "VI"));
 attacks.Add("Hyperspace Fury", new BaseAttack("Hyperspace Fury", "Dark", "Physical", "Tough", "5", "100", "", "VI"));
 attacks.Add("Breakneck Blitz", new BaseAttack("Breakneck Blitz", "Normal", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("Breakneck Blitz", new BaseAttack("Breakneck Blitz", "Normal", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Breakneck Blitz", new BaseAttack("Breakneck Blitz", "Normal", "Special", "???", "1", "", "", "VII"));
 attacks.Add("All-Out Pummeling", new BaseAttack("All-Out Pummeling", "Fighting", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("All-Out Pummeling", new BaseAttack("All-Out Pummeling", "Fighting", "Special", "???", "1", "", "", "VII"));
-attacks.Add("Supersonic Skystrike", new BaseAttack("Supersonic Skystrike", "Flying", "Physical", "???", "1", "", "", "VII"));
+// attacks.Add("All-Out Pummeling", new BaseAttack("All-Out Pummeling", "Fighting", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Supersonic Skystrike", new BaseAttack("Supersonic Skystrike", "Flying", "Physical", "???", "1", "", "", "VII"));
 attacks.Add("Supersonic Skystrike", new BaseAttack("Supersonic Skystrike", "Flying", "Special", "???", "1", "", "", "VII"));
 attacks.Add("Acid Downpour", new BaseAttack("Acid Downpour", "Poison", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("Acid Downpour", new BaseAttack("Acid Downpour", "Poison", "Special", "???", "1", "", "", "VII"));
-attacks.Add("Tectonic Rage", new BaseAttack("Tectonic Rage", "Ground", "Physical", "???", "1", "", "", "VII"));
+// attacks.Add("Acid Downpour", new BaseAttack("Acid Downpour", "Poison", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Tectonic Rage", new BaseAttack("Tectonic Rage", "Ground", "Physical", "???", "1", "", "", "VII"));
 attacks.Add("Tectonic Rage", new BaseAttack("Tectonic Rage", "Ground", "Special", "???", "1", "", "", "VII"));
 attacks.Add("Continental Crush", new BaseAttack("Continental Crush", "Rock", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("Continental Crush", new BaseAttack("Continental Crush", "Rock", "Special", "???", "1", "", "", "VII"));
-attacks.Add("Savage Spin-Out", new BaseAttack("Savage Spin-Out", "Bug", "Physical", "???", "1", "", "", "VII"));
+// attacks.Add("Continental Crush", new BaseAttack("Continental Crush", "Rock", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Savage Spin-Out", new BaseAttack("Savage Spin-Out", "Bug", "Physical", "???", "1", "", "", "VII"));
 attacks.Add("Savage Spin-Out", new BaseAttack("Savage Spin-Out", "Bug", "Special", "???", "1", "", "", "VII"));
 attacks.Add("Never-Ending Nightmare", new BaseAttack("Never-Ending Nightmare", "Ghost", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("Never-Ending Nightmare", new BaseAttack("Never-Ending Nightmare", "Ghost", "Special", "???", "1", "", "", "VII"));
-attacks.Add("Corkscrew Crash", new BaseAttack("Corkscrew Crash", "Steel", "Physical", "???", "1", "", "", "VII"));
+// attacks.Add("Never-Ending Nightmare", new BaseAttack("Never-Ending Nightmare", "Ghost", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Corkscrew Crash", new BaseAttack("Corkscrew Crash", "Steel", "Physical", "???", "1", "", "", "VII"));
 attacks.Add("Corkscrew Crash", new BaseAttack("Corkscrew Crash", "Steel", "Special", "???", "1", "", "", "VII"));
 attacks.Add("Inferno Overdrive", new BaseAttack("Inferno Overdrive", "Fire", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("Inferno Overdrive", new BaseAttack("Inferno Overdrive", "Fire", "Special", "???", "1", "", "", "VII"));
-attacks.Add("Hydro Vortex", new BaseAttack("Hydro Vortex", "Water", "Physical", "???", "1", "", "", "VII"));
+// attacks.Add("Inferno Overdrive", new BaseAttack("Inferno Overdrive", "Fire", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Hydro Vortex", new BaseAttack("Hydro Vortex", "Water", "Physical", "???", "1", "", "", "VII"));
 attacks.Add("Hydro Vortex", new BaseAttack("Hydro Vortex", "Water", "Special", "???", "1", "", "", "VII"));
 attacks.Add("Bloom Doom", new BaseAttack("Bloom Doom", "Grass", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("Bloom Doom", new BaseAttack("Bloom Doom", "Grass", "Special", "???", "1", "", "", "VII"));
-attacks.Add("Gigavolt Havoc", new BaseAttack("Gigavolt Havoc", "Electric", "Physical", "???", "1", "", "", "VII"));
+// attacks.Add("Bloom Doom", new BaseAttack("Bloom Doom", "Grass", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Gigavolt Havoc", new BaseAttack("Gigavolt Havoc", "Electric", "Physical", "???", "1", "", "", "VII"));
 attacks.Add("Gigavolt Havoc", new BaseAttack("Gigavolt Havoc", "Electric", "Special", "???", "1", "", "", "VII"));
 attacks.Add("Shattered Psyche", new BaseAttack("Shattered Psyche", "Psychic", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("Shattered Psyche", new BaseAttack("Shattered Psyche", "Psychic", "Special", "???", "1", "", "", "VII"));
-attacks.Add("Subzero Slammer", new BaseAttack("Subzero Slammer", "Ice", "Physical", "???", "1", "", "", "VII"));
+// attacks.Add("Shattered Psyche", new BaseAttack("Shattered Psyche", "Psychic", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Subzero Slammer", new BaseAttack("Subzero Slammer", "Ice", "Physical", "???", "1", "", "", "VII"));
 attacks.Add("Subzero Slammer", new BaseAttack("Subzero Slammer", "Ice", "Special", "???", "1", "", "", "VII"));
 attacks.Add("Devastating Drake", new BaseAttack("Devastating Drake", "Dragon", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("Devastating Drake", new BaseAttack("Devastating Drake", "Dragon", "Special", "???", "1", "", "", "VII"));
-attacks.Add("Black Hole Eclipse", new BaseAttack("Black Hole Eclipse", "Dark", "Physical", "???", "1", "", "", "VII"));
+// attacks.Add("Devastating Drake", new BaseAttack("Devastating Drake", "Dragon", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Black Hole Eclipse", new BaseAttack("Black Hole Eclipse", "Dark", "Physical", "???", "1", "", "", "VII"));
 attacks.Add("Black Hole Eclipse", new BaseAttack("Black Hole Eclipse", "Dark", "Special", "???", "1", "", "", "VII"));
 attacks.Add("Twinkle Tackle", new BaseAttack("Twinkle Tackle", "Fairy", "Physical", "???", "1", "", "", "VII"));
-attacks.Add("Twinkle Tackle", new BaseAttack("Twinkle Tackle", "Fairy", "Special", "???", "1", "", "", "VII"));
+// attacks.Add("Twinkle Tackle", new BaseAttack("Twinkle Tackle", "Fairy", "Special", "???", "1", "", "", "VII"));
 attacks.Add("Catastropika", new BaseAttack("Catastropika", "Electric", "Physical", "???", "1", "210", "", "VII"));
 attacks.Add("Shore Up", new BaseAttack("Shore Up", "Ground", "Status", "???", "10", "", "", "VII"));
 attacks.Add("First Impression", new BaseAttack("First Impression", "Bug", "Physical", "???", "10", "90", "100", "VII"));
